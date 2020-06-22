@@ -16,11 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
-from hrm.api import UserList, UserDetail
+from hrm.api import UserList, UserDetail, UserAuthentication
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api/users_list/$', UserList.as_view(), name='users_list'),
     url(r'^api/users_list/(?P<employee_id>\d+)/$', UserDetail.as_view(), name='users_list'),
+    url(r'^api/auth/$', UserAuthentication.as_view(), name='User Authentication API'),
 ]
