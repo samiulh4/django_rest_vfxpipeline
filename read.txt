@@ -1,6 +1,18 @@
-django = 2.2.4
-
-
-pip install djangorestframework == 3.11.0
+------------------- ---------
+certifi             2020.6.20
+chardet             3.0.4
+Django              2.2.4
+djangorestframework 3.11.0
+idna                2.9
+Pillow              7.1.2
+pip                 20.1.1
+pytz                2020.1
+requests            2.24.0
+setuptools          41.2.0
+sqlparse            0.3.1
+urllib3             1.25.9
+------------------- -------
 
 User : rajiv, Password : vfxpipeline
+
+
